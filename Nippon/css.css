@@ -44,13 +44,13 @@ nav ul li a:hover {
     text-decoration: underline; /* Underline on hover */
 }
 
-footer{
-    
+
+    footer {
         background-color: #870000; /* Dark red background */
         color: white; /* White text */
         text-align: left; /* Align text to the left */
-        padding: 0.5rem; /* Reduced padding inside the footer */
-        margin-top: 0.5rem; /* Reduced margin above the footer */
+        padding: 0.5px; /* Reduced padding inside the footer */
+        margin-top: 0.5px; /* Reduced margin above the footer */
     }
     
     footer h2 {
@@ -75,4 +75,9 @@ footer{
     footer input[type="email"]:focus {
         outline: none; /* Remove outline on focus */
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Add a subtle glow effect on focus */
+    }
+
+.icons { 
+    display: flex;
+        transform: scale(0.5); /* Scales the image to 50% of its original size */
     }

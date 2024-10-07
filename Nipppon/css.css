@@ -40,38 +40,62 @@ footer {
     background-color: #870000; /* Dark red background */
     color: white; /* White text */
     text-align: left; /* Align text to the left */
-    padding: 0.25rem; /* Further reduced padding inside the footer */
-    margin-top: 0.25rem; /* Further reduced margin above the footer */
+    padding: 1rem; /* Padding inside the footer */
+    margin-top: 1rem; /* Margin above the footer */
+}
+
+footer {
+    background-color: #870000; /* Dark red background */
+    color: white; /* White text */
+    text-align: left; /* Align text to the left */
+    padding: 0.5rem; /* Reduced padding inside the footer */
+    margin-top: 0.5rem; /* Reduced margin above the footer */
+}
+
+contact-info {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Padding around the container */
+    border: 1px solid #ccc; /* Optional border for visibility */
+}
+.contact-info h2 {
+    margin: 0; /* Remove default margin */
+}
+footer {
+    background-color: #870000; /* Dark red background */
+    color: white; /* White text */
+    text-align: center; /* Center text */
+    padding: 0.5rem; /* Padding inside the footer */
 }
 
 footer h2 {
     color: #fffcfc; /* Light color for headings */
-    margin-bottom: 0.2rem; /* Further reduced space below headings */
-    font-size: 1rem; /* Smaller font size for headings */
 }
 
 footer form {
-    margin-top: 0.25rem; /* Further reduced margin above the form */
+    margin-top: 0.5rem; /* Margin above the form */
 }
 
 footer input[type="email"] {
-    padding: 0.3rem; /* Reduced padding inside the input field */
-    width: 40%; /* Reduced width of the input field */
-    max-width: 200px; /* Reduced maximum width of the input field */
+    padding: 0.3rem; /* Padding inside the input field */
+    width: 60%; /* Width of the input field */
+    max-width: 300px; /* Maximum width of the input field */
     border: none; /* Remove default border */
     border-radius: 4px; /* Rounded corners */
-    font-size: 0.8rem; /* Smaller font size for better scaling */
 }
 
-footer input[type="email"]:focus {
-    outline: none; /* Remove outline on focus */
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Add a subtle glow effect on focus */
+footer .icons {
+    display: flex; /* Use flexbox for icons */
+    justify-content: center; /* Center icons horizontally */
+    margin-top: 1rem; /* Space above icons */
 }
 
-.icon-image {
-    width: 30px;  /* Set desired width */
-    height: 30px; /* Set desired height */
+footer .icon-image {
+    margin: 0 5px; 
+    shadow; 0 0 5px rgba(255, 255, 255, 0.5); /* Add a subtle glow effect on focus */
+
 }
 
 
-
+    
