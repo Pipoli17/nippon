@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 header {
-    background-color: #f9fdf9;
+    background-color: #ffffff;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 1rem;
@@ -53,6 +53,11 @@ footer input[type="email"] {
     padding: 0.5rem;
     width: 60%;
     max-width: 300px;
+}
+
+.icon-image {
+    width: 20px;  /* Set desired width */
+    height: 20px; /* Set desired height */
 }
 
 
