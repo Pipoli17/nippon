@@ -1,7 +1,7 @@
 /* css.css */
 header {
     background-color: #FFFDF5; /* Light background for the header */
-    padding: 10px; /* Padding around the header */
+    padding: 0%;
 }
 
 .header-container {
@@ -26,6 +26,8 @@ nav {
 nav ul {
     list-style-type: none; /* Remove bullet points */
     padding: 0; /* Remove default padding */
+    display: flex;
+    justify-content: space-around;
 }
 
 nav ul li {
