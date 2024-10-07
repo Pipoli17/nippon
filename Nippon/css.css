@@ -1,0 +1,41 @@
+/* css.css */
+header {
+    background-color: #f8f9fa; /* Light background for the header */
+    padding: 10px; /* Padding around the header */
+}
+
+.header-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+.logo {
+    margin-right: 20px; /* Space between logo and nav */
+}
+
+.logo img {
+    height: 50px; /* Adjust logo height as needed */
+}
+
+nav {
+    flex-grow: 1; /* Allow nav to take remaining space */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: block; /* Display list items as block for vertical layout */
+    margin: 10px 0; /* Space between links */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Link color */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
