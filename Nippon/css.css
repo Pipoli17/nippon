@@ -1,6 +1,6 @@
 /* css.css */
 header {
-    background-color: #f8f9fa; /* Light background for the header */
+    background-color: #FFFDF5; /* Light background for the header */
     padding: 10px; /* Padding around the header */
 }
 
@@ -14,8 +14,10 @@ header {
 }
 
 .logo img {
-    height: 50px; /* Adjust logo height as needed */
+    height: 150px; 
+    margin: 43px 68px;
 }
+
 
 nav {
     flex-grow: 1; /* Allow nav to take remaining space */
@@ -33,7 +35,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none; /* Remove underline from links */
-    color: #007bff; /* Link color */
+    color: #cf0300; /* Link color */
 }
 
 nav ul li a:hover {
